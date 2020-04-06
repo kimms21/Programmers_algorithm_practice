@@ -1,4 +1,5 @@
-# [Ç®ÀÌ #1] for¹® È°¿ë
+ï»¿# UTF-8
+# [í’€ì´ #1] forë¬¸ í™œìš©
 def solution(array, commands):
     answer = []
     
@@ -9,6 +10,6 @@ def solution(array, commands):
 
     return answer
 
-# [Ç®ÀÌ #2] map È°¿ë
+# [í’€ì´ #2] map í™œìš©
 def solution(array, commands):
     return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
